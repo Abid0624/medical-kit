@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "name": "Medix DR",
+    "description": "High-quality digital radiography system for accurate imaging.",
+    "price": 500000,
+    "category": "Diagnostic",
+    "brand": "Medix",
+    "features": [
+      "High-resolution imaging",
+      "Fast processing",
+      "User-friendly interface"
+    ],
+    "warranty": "2 years",
+    "image": "https://i.ibb.co.com/35XVZ0cn/medix-dr.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hera W-10",
+    "description": "Advanced ultrasound system for reliable diagnostics.",
+    "price": 750000,
+    "category": "Monitoring",
+    "brand": "Hera",
+    "features": [
+      "4D imaging capability",
+      "Ergonomic design",
+      "Touchscreen interface"
+    ],
+    "warranty": "3 years",
+    "image": "https://i.ibb.co.com/KjVBjf58/hera-w10.jpg"
+  },
+  {
+    "id": 3,
+    "name": "X-Panel",
+    "description": "Versatile X-ray panel for fast imaging.",
+    "price": 300000,
+    "category": "Diagnostic",
+    "brand": "XTech",
+    "features": [
+      "Lightweight and portable",
+      "High image quality",
+      "Compatible with most X-ray machines"
+    ],
+    "warranty": "1 year",
+    "image": "https://i.ibb.co.com/7dMbyJfq/x-panel.jpg"
+  },
+  {
+    "id": 4,
+    "name": "12 Channel ECG",
+    "description": "High-precision 12-channel electrocardiograph.",
+    "price": 150000,
+    "category": "Monitoring",
+    "brand": "CardioPlus",
+    "features": [
+      "Real-time ECG display",
+      "Automatic analysis",
+      "Compact design"
+    ],
+    "warranty": "2 years",
+    "image": "https://i.ibb.co.com/ZRT8jvB8/12-c-ecg.webp"
+  },
+  {
+    "id": 5,
+    "name": "Vega 204",
+    "description": "Compact and efficient diagnostic imaging system.",
+    "price": 400000,
+    "category": "Diagnostic",
+    "brand": "Vega",
+    "features": [
+      "Quick imaging",
+      "Low radiation exposure",
+      "Easy integration with PACS"
+    ],
+    "warranty": "2 years",
+    "image": "https://i.ibb.co.com/j9rzQRJC/vega-204.jpg"
+  },
+  {
+    "id": 6,
+    "name": "NR Series",
+    "description": "Reliable imaging and monitoring equipment.",
+    "price": 350000,
+    "category": "Diagnostic",
+    "brand": "NR",
+    "features": [
+      "Durable and long-lasting",
+      "High-quality sensors",
+      "Easy maintenance"
+    ],
+    "warranty": "1 year",
+    "image": "https://i.ibb.co.com/W4BtQRNT/nr-302.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Plancema 2D and 3D",
+    "description": "Advanced imaging system with 2D & 3D capability.",
+    "price": 950000,
+    "category": "Diagnostic",
+    "brand": "Plancema",
+    "features": ["2D & 3D imaging", "High accuracy", "User-friendly interface"],
+    "warranty": "3 years",
+    "image": "https://i.ibb.co.com/27vcmw12/plancema.webp"
+  },
+  {
+    "id": 8,
+    "name": "RS 85 Prestige",
+    "description": "Premium ultrasound system with high-resolution imaging.",
+    "price": 800000,
+    "category": "Monitoring",
+    "brand": "RS",
+    "features": [
+      "Advanced imaging algorithms",
+      "Touchscreen monitor",
+      "Portable and lightweight"
+    ],
+    "warranty": "3 years",
+    "image": "https://i.ibb.co.com/ycFLsHK4/rs85-prestige.png"
+  },
+  {
+    "id": 9,
+    "name": "Vivid E 95",
+    "description": "Cutting-edge cardiac ultrasound system.",
+    "price": 1200000,
+    "category": "Monitoring",
+    "brand": "Vivid",
+    "features": [
+      "3D & 4D cardiac imaging",
+      "Automated measurements",
+      "High-speed processing"
+    ],
+    "warranty": "3 years",
+    "image": "https://i.ibb.co.com/YFMNNsQN/vivide95.jpg"
+  }
+]

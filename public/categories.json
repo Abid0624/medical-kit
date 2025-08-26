@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "category": "All Products",
+    "description": "Browse all our medical equipment."
+  },
+  {
+    "id": 2,
+    "category": "Diagnostic",
+    "description": "X-ray, DR, imaging systems for precise diagnostics."
+  },
+  {
+    "id": 3,
+    "category": "Monitoring",
+    "description": "ECG, ultrasound, and patient monitoring devices."
+  }
+]
