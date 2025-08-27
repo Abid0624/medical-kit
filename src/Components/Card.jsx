@@ -19,7 +19,7 @@ const Card = ({ product }) => {
           {category} - {brand}
         </p>
         <p className="text-gray-700 font-medium text-lg mb-2">
-          ${price.toLocaleString()}
+          {price.toLocaleString()} BDT
         </p>
         <p className="text-gray-600 text-sm mb-4">{description}</p>
         <p className="text-gray-500 text-sm mb-2">

@@ -92,7 +92,7 @@ const Support = () => {
           <div className="collapse-content">
             <p>
               You can reach our support team via phone at{" "}
-              <strong>01833310750</strong>
+              <strong>01834254409 </strong>
               or by email through our contact page. We are happy to help with
               any inquiries.
             </p>

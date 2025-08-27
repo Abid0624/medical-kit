@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Medix DR",
     "description": "High-quality digital radiography system for accurate imaging.",
-    "price": 500000,
+    "price": 3920000,
     "category": "Diagnostic",
     "brand": "Medix",
     "features": [
@@ -11,14 +11,14 @@
       "Fast processing",
       "User-friendly interface"
     ],
-    "warranty": "2 years",
+    "warranty": "4 years",
     "image": "https://i.ibb.co.com/35XVZ0cn/medix-dr.jpg"
   },
   {
     "id": 2,
     "name": "Hera W-10",
     "description": "Advanced ultrasound system for reliable diagnostics.",
-    "price": 750000,
+    "price": 11000000,
     "category": "Monitoring",
     "brand": "Hera",
     "features": [
@@ -26,14 +26,14 @@
       "Ergonomic design",
       "Touchscreen interface"
     ],
-    "warranty": "3 years",
+    "warranty": "5 years",
     "image": "https://i.ibb.co.com/KjVBjf58/hera-w10.jpg"
   },
   {
     "id": 3,
     "name": "X-Panel",
     "description": "Versatile X-ray panel for fast imaging.",
-    "price": 300000,
+    "price": 2590000,
     "category": "Diagnostic",
     "brand": "XTech",
     "features": [
@@ -41,14 +41,14 @@
       "High image quality",
       "Compatible with most X-ray machines"
     ],
-    "warranty": "1 year",
+    "warranty": "4 year",
     "image": "https://i.ibb.co.com/7dMbyJfq/x-panel.jpg"
   },
   {
     "id": 4,
     "name": "12 Channel ECG",
     "description": "High-precision 12-channel electrocardiograph.",
-    "price": 150000,
+    "price": 200000,
     "category": "Monitoring",
     "brand": "CardioPlus",
     "features": [
@@ -56,14 +56,14 @@
       "Automatic analysis",
       "Compact design"
     ],
-    "warranty": "2 years",
+    "warranty": "4 years",
     "image": "https://i.ibb.co.com/ZRT8jvB8/12-c-ecg.webp"
   },
   {
     "id": 5,
     "name": "Vega 204",
     "description": "Compact and efficient diagnostic imaging system.",
-    "price": 400000,
+    "price": 650000,
     "category": "Diagnostic",
     "brand": "Vega",
     "features": [
@@ -71,14 +71,14 @@
       "Low radiation exposure",
       "Easy integration with PACS"
     ],
-    "warranty": "2 years",
+    "warranty": "5 years",
     "image": "https://i.ibb.co.com/j9rzQRJC/vega-204.jpg"
   },
   {
     "id": 6,
     "name": "NR Series",
     "description": "Reliable imaging and monitoring equipment.",
-    "price": 350000,
+    "price": 690000,
     "category": "Diagnostic",
     "brand": "NR",
     "features": [
@@ -86,25 +86,25 @@
       "High-quality sensors",
       "Easy maintenance"
     ],
-    "warranty": "1 year",
+    "warranty": "4 year",
     "image": "https://i.ibb.co.com/W4BtQRNT/nr-302.jpg"
   },
   {
     "id": 7,
     "name": "Plancema 2D and 3D",
     "description": "Advanced imaging system with 2D & 3D capability.",
-    "price": 950000,
+    "price": 1570000,
     "category": "Diagnostic",
     "brand": "Plancema",
     "features": ["2D & 3D imaging", "High accuracy", "User-friendly interface"],
-    "warranty": "3 years",
+    "warranty": "4 years",
     "image": "https://i.ibb.co.com/27vcmw12/plancema.webp"
   },
   {
     "id": 8,
     "name": "RS 85 Prestige",
     "description": "Premium ultrasound system with high-resolution imaging.",
-    "price": 800000,
+    "price": 8280000,
     "category": "Monitoring",
     "brand": "RS",
     "features": [
@@ -112,14 +112,14 @@
       "Touchscreen monitor",
       "Portable and lightweight"
     ],
-    "warranty": "3 years",
+    "warranty": "5 years",
     "image": "https://i.ibb.co.com/ycFLsHK4/rs85-prestige.png"
   },
   {
     "id": 9,
     "name": "Vivid E 95",
     "description": "Cutting-edge cardiac ultrasound system.",
-    "price": 1200000,
+    "price": 18096000,
     "category": "Monitoring",
     "brand": "Vivid",
     "features": [
@@ -127,7 +127,83 @@
       "Automated measurements",
       "High-speed processing"
     ],
-    "warranty": "3 years",
+    "warranty": "5 years",
     "image": "https://i.ibb.co.com/YFMNNsQN/vivide95.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mammography Machine",
+    "description": "Advanced breast imaging system for early cancer detection.",
+    "price": 3000000,
+    "category": "Imaging",
+    "brand": "Planmed",
+    "features": [
+      "High-resolution 2D & 3D imaging",
+      "Low radiation dose technology",
+      "Ergonomic design for patient comfort",
+      "Automated image analysis"
+    ],
+    "warranty": "5 years",
+    "image": "https://i.ibb.co.com/7NYKMWS2/mammography.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Philips MRI 1.5T",
+    "description": "High-field magnetic resonance imaging system for precise diagnostics.",
+    "price": 98000000,
+    "category": "Imaging",
+    "brand": "Philips",
+    "features": [
+      "High-resolution 3D imaging",
+      "Fast scan times",
+      "Advanced noise reduction"
+    ],
+    "warranty": "5 years",
+    "image": "https://i.ibb.co.com/yHfhnsk/philips.webp"
+  },
+  {
+    "id": 12,
+    "name": "Siemens SOMATOM CT",
+    "description": "Multi-slice computed tomography system for detailed imaging.",
+    "price": 120000000,
+    "category": "Imaging",
+    "brand": "Siemens",
+    "features": [
+      "64-slice CT scanning",
+      "Low dose radiation technology",
+      "Rapid image reconstruction"
+    ],
+    "warranty": "5 years",
+    "image": "https://i.ibb.co.com/NgPZsQyf/siemens.webp"
+  },
+  {
+    "id": 13,
+    "name": "GE Cardio Lab",
+    "description": "Comprehensive cardiac monitoring and imaging system.",
+    "price": 45000000,
+    "category": "Monitoring",
+    "brand": "GE",
+    "features": [
+      "Advanced cardiac mapping",
+      "Real-time monitoring",
+      "Integrated data analysis"
+    ],
+    "warranty": "5 years",
+    "image": "https://i.ibb.co.com/zV5g5p9W/gecardio.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Toshiba Digital X-Ray 5000",
+    "description": "High-end digital radiography system for precise diagnostics.",
+    "price": 18000000,
+    "category": "Diagnostic",
+    "brand": "Toshiba",
+    "features": [
+      "High-definition imaging",
+      "Rapid image capture",
+      "Advanced workflow software"
+    ],
+    "warranty": "5 years",
+    "image": "https://i.ibb.co.com/q3GM6wdQ/toshiba.jpg"
   }
 ]

@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../Components/Banner";
 import Card from "../Components/Card";
 import { useLoaderData, useNavigate } from "react-router-dom";
+import CEOMessage from "../Components/CEOMessage";
 
 const Home = () => {
   const data = useLoaderData();
@@ -36,6 +37,8 @@ const Home = () => {
           </button>
         </div>
       </div>
+      {/* msg from ceo */}
+      <CEOMessage></CEOMessage>
     </div>
   );
 };
