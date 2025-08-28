@@ -32,7 +32,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
                 <Link to="/products">Products</Link>
@@ -55,7 +55,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
               <Link to="/products">Products</Link>
@@ -66,12 +66,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end mr-3">
-          <Link
-            to="/products"
-            className="btn bg-blue-600 hover:bg-blue-700 text-white"
+          <a
+            href="#contact"
+            className="btn btn-sm md:btn-md bg-blue-600 hover:bg-blue-700 text-white"
           >
-            Shop Now
-          </Link>
+            Contact Now
+          </a>
         </div>
       </div>
     </div>

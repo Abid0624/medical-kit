@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
-import { Stethoscope, HeartPulse, Bandage } from "lucide-react";
+import { Stethoscope, HeartPulse, Bandage, Link } from "lucide-react";
 import aboutImg from "../assets/about.jpg";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <div
-      className="relative h-[550px] bg-cover mt-36 mb-12 bg-center bg-no-repeat min-h-screen flex items-center"
+      className="relative  bg-cover mt-36 mb-12 py-8 bg-center bg-no-repeat min-h-screen flex items-center"
       style={{ backgroundImage: `url(${aboutImg})` }}
     >
       {/* Floating medical icons */}
@@ -47,7 +49,7 @@ const About = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          About MediKit Store
+          About Manha Enterprise
         </motion.h1>
 
         <motion.p
@@ -56,10 +58,11 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          At MediKit Store, we provide high-quality medical kits, first-aid
-          equipment, and emergency supplies to ensure safety and preparedness
-          for every situation. Our mission is to make medical essentials
-          accessible, reliable, and affordable for everyone.
+          Established in 2015, Manha Enterprise is a professional supplier of
+          medical machinery and equipment, serving hospitals, clinics, and
+          diagnostic centers with dependable healthcare solutions. Over the
+          years, we have built a reputation for reliability, quality, and
+          integrity in the medical equipment supply industry.
         </motion.p>
 
         <motion.p
@@ -68,13 +71,19 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          Founded with the goal of promoting health and safety, our team is
-          dedicated to delivering trusted products and exceptional customer
-          service. We continuously innovate and expand our offerings to meet
-          your evolving needs.
+          Our product portfolio covers a wide range of advanced medical
+          machinery and equipment sourced from trusted global manufacturers.
+          Each product is carefully selected to ensure compliance with
+          international standards, durability, and efficiency—supporting
+          healthcare professionals in delivering accurate diagnostics and
+          effective treatment. With a vision to be a leading medical equipment
+          supplier, we continue to expand our capabilities and strengthen our
+          relationships with healthcare providers across the country. Manha
+          Enterprise – Supplying Trust, Ensuring Care.
         </motion.p>
 
         <motion.button
+          onClick={() => navigate("/support")}
           className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold shadow-lg"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}

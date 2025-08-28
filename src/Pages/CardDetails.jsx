@@ -70,7 +70,7 @@ const CardDetails = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Price: <span className="text-blue-600">${product.price}</span>
+          Price: <span className="text-blue-600">{product.price} BDT</span>
         </motion.p>
 
         <motion.p

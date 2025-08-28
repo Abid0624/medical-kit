@@ -58,7 +58,7 @@ const Footer = () => {
           <h6 className="footer-title mb-3 font-semibold text-lg">Contact</h6>
           <ul className="space-y-2 text-sm">
             <li>📍 64, Road No-01, South Khulshi, Chattogram</li>
-            <li>📞 01834254409</li>
+            <li id="contact">📞 01834254409</li>
             <li>✉️ support@medikit.com</li>
           </ul>
         </div>
