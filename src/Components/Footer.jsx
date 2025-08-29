@@ -9,7 +9,10 @@ const Footer = () => {
             alt="Medical Kit Logo"
             className="w-16 h-16 mb-4"
           />
-          <p className="font-bold text-lg">MediKit Store</p>
+          <p className="font-bold text-lg">
+            <span className="text-blue-600">Manha</span>{" "}
+            <span className="text-pink-500">Enterprise</span>
+          </p>
           <p className="text-sm mt-1">
             Your trusted supplier of medical kits and emergency supplies
           </p>
