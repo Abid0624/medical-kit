@@ -20,7 +20,6 @@ const Products = () => {
     ].map((cat) => ({ category: cat }));
     setCategories(uniqueCategories);
   }, [data]);
-  console.log(categories);
 
   return (
     <div className="w-11/12 mx-auto mt-32 mb-12">

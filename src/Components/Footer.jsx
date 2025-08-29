@@ -66,7 +66,7 @@ const Footer = () => {
 
       {/* Bottom Copyright */}
       <div className="bg-base-300 text-center py-4 mt-4 text-sm">
-        © {new Date().getFullYear()} Manha Enterprise — All rights reserved.
+        © 2015 Manha Enterprise — All rights reserved.
       </div>
     </footer>
   );

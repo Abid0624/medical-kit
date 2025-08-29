@@ -12,10 +12,8 @@ const CardDetails = () => {
       const singleCard = data.find((card) => card.id === parseInt(id));
       if (singleCard) {
         setProduct(singleCard);
-        console.log(singleCard); // logs the found product
       } else {
         setProduct(null);
-        console.log("Product not found");
       }
     }
   }, [data, id]);
@@ -65,35 +63,97 @@ const CardDetails = () => {
         </motion.p>
 
         <motion.p
-          className="text-xl font-semibold mb-2"
+          className="text-gray-600 text-lg mb-2"
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.8 }}
+        >
+          <strong>Category:</strong> {product.category}
+        </motion.p>
+
+        <motion.p
+          className="text-gray-600 text-lg mb-2"
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Price: <span className="text-blue-600">{product.price} BDT</span>
+          <strong>Brand:</strong> {product.brand}
         </motion.p>
 
         <motion.p
-          className="text-gray-600 text-lg"
+          className="text-gray-600 text-lg mb-2"
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
         >
-          Category: {product.category}
+          <strong>Warranty:</strong> {product.warranty}
         </motion.p>
 
-        {/* Product Features */}
+        {/* Features */}
         {product.features && product.features.length > 0 && (
           <motion.div
-            className="mt-8"
+            className="mt-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
+          >
+            <h2 className="text-2xl font-bold mb-2">Features</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              {product.features.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+
+        {/* Specifications */}
+        {product.specifications && (
+          <motion.div
+            className="mt-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.7, duration: 0.8 }}
+          >
+            <h2 className="text-2xl font-bold mb-2">Specifications</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              {Object.entries(product.specifications).map(([key, value]) => (
+                <li key={key}>
+                  <strong className="capitalize">{key}:</strong> {value}
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+
+        {/* Applications */}
+        {product.applications && product.applications.length > 0 && (
+          <motion.div
+            className="mt-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <h2 className="text-2xl font-bold mb-4">Features</h2>
+            <h2 className="text-2xl font-bold mb-2">Applications</h2>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
-              {product.features.map((feature, index) => (
-                <li key={index}>{feature}</li>
+              {product.applications.map((app, index) => (
+                <li key={index}>{app}</li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+
+        {/* Certifications */}
+        {product.certifications && product.certifications.length > 0 && (
+          <motion.div
+            className="mt-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.9, duration: 0.8 }}
+          >
+            <h2 className="text-2xl font-bold mb-2">Certifications</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              {product.certifications.map((cert, index) => (
+                <li key={index}>{cert}</li>
               ))}
             </ul>
           </motion.div>

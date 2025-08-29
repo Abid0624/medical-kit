@@ -3,7 +3,6 @@
     "id": 1,
     "name": "Medix DR",
     "description": "High-quality digital radiography system for accurate imaging.",
-    "price": 4704000,
     "category": "Diagnostic",
     "brand": "Medix",
     "features": [
@@ -12,13 +11,23 @@
       "User-friendly interface"
     ],
     "warranty": "4 years",
-    "image": "https://i.ibb.co.com/35XVZ0cn/medix-dr.jpg"
+    "image": "https://i.ibb.co.com/35XVZ0cn/medix-dr.jpg",
+    "specifications": {
+      "dimensions": "180 x 90 x 75 cm",
+      "weight": "120 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "Hospital radiology",
+      "Orthopedic imaging",
+      "Emergency diagnostics"
+    ],
+    "certifications": ["FDA Approved", "CE Certified", "ISO 13485"]
   },
   {
     "id": 2,
     "name": "Hera W-10",
     "description": "Advanced ultrasound system for reliable diagnostics.",
-    "price": 13200000,
     "category": "Monitoring",
     "brand": "Hera",
     "features": [
@@ -27,13 +36,23 @@
       "Touchscreen interface"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/KjVBjf58/hera-w10.jpg"
+    "image": "https://i.ibb.co.com/KjVBjf58/hera-w10.jpg",
+    "specifications": {
+      "dimensions": "160 x 85 x 70 cm",
+      "weight": "100 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "Obstetrics & Gynecology",
+      "Cardiology",
+      "General ultrasound imaging"
+    ],
+    "certifications": ["CE Certified", "ISO 13485"]
   },
   {
     "id": 3,
     "name": "X-Panel",
     "description": "Versatile X-ray panel for fast imaging.",
-    "price": 3108000,
     "category": "Diagnostic",
     "brand": "XTech",
     "features": [
@@ -41,14 +60,24 @@
       "High image quality",
       "Compatible with most X-ray machines"
     ],
-    "warranty": "4 year",
-    "image": "https://i.ibb.co.com/7dMbyJfq/x-panel.jpg"
+    "warranty": "4 years",
+    "image": "https://i.ibb.co.com/7dMbyJfq/x-panel.jpg",
+    "specifications": {
+      "dimensions": "45 x 40 cm",
+      "weight": "3.5 kg",
+      "power": "Battery operated"
+    },
+    "applications": [
+      "Portable X-ray diagnostics",
+      "Orthopedic clinics",
+      "Emergency wards"
+    ],
+    "certifications": ["FDA Approved", "ISO 13485"]
   },
   {
     "id": 4,
     "name": "12 Channel ECG",
     "description": "High-precision 12-channel electrocardiograph.",
-    "price": 240000,
     "category": "Monitoring",
     "brand": "CardioPlus",
     "features": [
@@ -57,13 +86,19 @@
       "Compact design"
     ],
     "warranty": "4 years",
-    "image": "https://i.ibb.co.com/ZRT8jvB8/12-c-ecg.webp"
+    "image": "https://i.ibb.co.com/ZRT8jvB8/12-c-ecg.webp",
+    "specifications": {
+      "dimensions": "35 x 25 x 8 cm",
+      "weight": "2.2 kg",
+      "power": "Rechargeable battery"
+    },
+    "applications": ["Cardiology departments", "ICUs", "General hospital use"],
+    "certifications": ["CE Certified", "ISO 13485"]
   },
   {
     "id": 5,
     "name": "Vega 204",
     "description": "Compact and efficient diagnostic imaging system.",
-    "price": 780000,
     "category": "Diagnostic",
     "brand": "Vega",
     "features": [
@@ -72,13 +107,23 @@
       "Easy integration with PACS"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/j9rzQRJC/vega-204.jpg"
+    "image": "https://i.ibb.co.com/j9rzQRJC/vega-204.jpg",
+    "specifications": {
+      "dimensions": "120 x 70 x 60 cm",
+      "weight": "85 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "General radiology",
+      "Outpatient clinics",
+      "Emergency use"
+    ],
+    "certifications": ["FDA Approved", "CE Certified"]
   },
   {
     "id": 6,
     "name": "NR Series",
     "description": "Reliable imaging and monitoring equipment.",
-    "price": 828000,
     "category": "Diagnostic",
     "brand": "NR",
     "features": [
@@ -86,25 +131,41 @@
       "High-quality sensors",
       "Easy maintenance"
     ],
-    "warranty": "4 year",
-    "image": "https://i.ibb.co.com/W4BtQRNT/nr-302.jpg"
+    "warranty": "4 years",
+    "image": "https://i.ibb.co.com/W4BtQRNT/nr-302.jpg",
+    "specifications": {
+      "dimensions": "140 x 80 x 65 cm",
+      "weight": "95 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "Hospital diagnostics",
+      "Routine check-ups",
+      "Outpatient clinics"
+    ],
+    "certifications": ["ISO 13485", "CE Certified"]
   },
   {
     "id": 7,
     "name": "Plancema 2D and 3D",
     "description": "Advanced imaging system with 2D & 3D capability.",
-    "price": 1884000,
     "category": "Diagnostic",
     "brand": "Plancema",
     "features": ["2D & 3D imaging", "High accuracy", "User-friendly interface"],
     "warranty": "4 years",
-    "image": "https://i.ibb.co.com/27vcmw12/plancema.webp"
+    "image": "https://i.ibb.co.com/27vcmw12/plancema.webp",
+    "specifications": {
+      "dimensions": "150 x 80 x 70 cm",
+      "weight": "110 kg",
+      "power": "220V AC"
+    },
+    "applications": ["Dental imaging", "Orthopedics", "General diagnostics"],
+    "certifications": ["FDA Approved", "CE Certified"]
   },
   {
     "id": 8,
     "name": "RS 85 Prestige",
     "description": "Premium ultrasound system with high-resolution imaging.",
-    "price": 9936000,
     "category": "Monitoring",
     "brand": "RS",
     "features": [
@@ -113,13 +174,19 @@
       "Portable and lightweight"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/ycFLsHK4/rs85-prestige.png"
+    "image": "https://i.ibb.co.com/ycFLsHK4/rs85-prestige.png",
+    "specifications": {
+      "dimensions": "165 x 90 x 75 cm",
+      "weight": "105 kg",
+      "power": "220V AC"
+    },
+    "applications": ["Abdominal imaging", "Cardiology", "Vascular imaging"],
+    "certifications": ["CE Certified", "ISO 13485"]
   },
   {
     "id": 9,
     "name": "Vivid E 95",
     "description": "Cutting-edge cardiac ultrasound system.",
-    "price": 21715200,
     "category": "Monitoring",
     "brand": "Vivid",
     "features": [
@@ -128,13 +195,23 @@
       "High-speed processing"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/YFMNNsQN/vivide95.jpg"
+    "image": "https://i.ibb.co.com/YFMNNsQN/vivide95.jpg",
+    "specifications": {
+      "dimensions": "170 x 95 x 80 cm",
+      "weight": "115 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "Cardiac imaging",
+      "Pediatric cardiology",
+      "Heart failure monitoring"
+    ],
+    "certifications": ["FDA Approved", "CE Certified"]
   },
   {
     "id": 10,
     "name": "Mammography Machine",
     "description": "Advanced breast imaging system for early cancer detection.",
-    "price": 3000000,
     "category": "Imaging",
     "brand": "Planmed",
     "features": [
@@ -144,13 +221,23 @@
       "Automated image analysis"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/7NYKMWS2/mammography.jpg"
+    "image": "https://i.ibb.co.com/7NYKMWS2/mammography.jpg",
+    "specifications": {
+      "dimensions": "150 x 85 x 70 cm",
+      "weight": "130 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "Breast cancer screening",
+      "Oncology diagnostics",
+      "Women's health centers"
+    ],
+    "certifications": ["FDA Approved", "CE Certified", "ISO 13485"]
   },
   {
     "id": 11,
     "name": "Philips MRI 1.5T",
     "description": "High-field magnetic resonance imaging system for precise diagnostics.",
-    "price": 18250000,
     "category": "Imaging",
     "brand": "Philips",
     "features": [
@@ -159,13 +246,19 @@
       "Advanced noise reduction"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/yHfhnsk/philips.webp"
+    "image": "https://i.ibb.co.com/yHfhnsk/philips.webp",
+    "specifications": {
+      "dimensions": "Room-size installation",
+      "weight": "2500 kg",
+      "power": "380V AC"
+    },
+    "applications": ["Neurology", "Orthopedics", "Oncology diagnostics"],
+    "certifications": ["FDA Approved", "CE Certified"]
   },
   {
     "id": 12,
     "name": "Siemens SOMATOM CT",
     "description": "Multi-slice computed tomography system for detailed imaging.",
-    "price": 20850000,
     "category": "Imaging",
     "brand": "Siemens",
     "features": [
@@ -174,13 +267,19 @@
       "Rapid image reconstruction"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/NgPZsQyf/siemens.webp"
+    "image": "https://i.ibb.co.com/NgPZsQyf/siemens.webp",
+    "specifications": {
+      "dimensions": "Room-size installation",
+      "weight": "2200 kg",
+      "power": "380V AC"
+    },
+    "applications": ["Full-body imaging", "Trauma cases", "Cancer detection"],
+    "certifications": ["CE Certified", "ISO 13485"]
   },
   {
     "id": 13,
     "name": "GE Cardio Lab",
     "description": "Comprehensive cardiac monitoring and imaging system.",
-    "price": 45000000,
     "category": "Monitoring",
     "brand": "GE",
     "features": [
@@ -189,13 +288,23 @@
       "Integrated data analysis"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/zV5g5p9W/gecardio.jpg"
+    "image": "https://i.ibb.co.com/zV5g5p9W/gecardio.jpg",
+    "specifications": {
+      "dimensions": "200 x 120 x 90 cm",
+      "weight": "300 kg",
+      "power": "380V AC"
+    },
+    "applications": [
+      "Electrophysiology studies",
+      "Cardiac surgery support",
+      "Advanced cardiology labs"
+    ],
+    "certifications": ["FDA Approved", "CE Certified"]
   },
   {
     "id": 14,
     "name": "Toshiba Digital X-Ray 5000",
     "description": "High-end digital radiography system for precise diagnostics.",
-    "price": 18000000,
     "category": "Diagnostic",
     "brand": "Toshiba",
     "features": [
@@ -204,6 +313,17 @@
       "Advanced workflow software"
     ],
     "warranty": "5 years",
-    "image": "https://i.ibb.co.com/q3GM6wdQ/toshiba.jpg"
+    "image": "https://i.ibb.co.com/q3GM6wdQ/toshiba.jpg",
+    "specifications": {
+      "dimensions": "190 x 95 x 80 cm",
+      "weight": "140 kg",
+      "power": "220V AC"
+    },
+    "applications": [
+      "General radiography",
+      "Emergency diagnostics",
+      "Hospital imaging"
+    ],
+    "certifications": ["FDA Approved", "CE Certified", "ISO 13485"]
   }
 ]

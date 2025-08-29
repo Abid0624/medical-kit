@@ -1,8 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const Card = ({ product }) => {
-  const { id, name, description, price, category, brand, warranty, image } =
-    product;
+  const { id, name, description, category, brand, warranty, image } = product;
   const navigate = useNavigate();
 
   return (
@@ -17,9 +16,6 @@ const Card = ({ product }) => {
         <h2 className="card-title text-xl font-bold">{name}</h2>
         <p className="text-gray-500 text-sm mb-2">
           {category} - {brand}
-        </p>
-        <p className="text-gray-700 font-medium text-lg mb-2">
-          {price.toLocaleString()} BDT
         </p>
         <p className="text-gray-600 text-sm mb-4">{description}</p>
         <p className="text-gray-500 text-sm mb-2">

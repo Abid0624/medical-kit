@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   // Sort by price descending (highest price first) and take top 4
-  const topProducts = data.sort((a, b) => b.price - a.price).slice(0, 5);
+  const topProducts = data.slice(0, 5);
 
   return (
     <div>
